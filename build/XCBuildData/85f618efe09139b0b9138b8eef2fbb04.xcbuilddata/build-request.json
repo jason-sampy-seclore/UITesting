@@ -1,16 +1,16 @@
 {
   "buildCommand" : {
-    "command" : "build",
-    "skipDependencies" : false,
-    "style" : "buildAndRun"
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
   },
   "configuredTargets" : [
     {
-      "guid" : "d0531b87895a86ffd99339e6516fcaeff413d8f7eb45064e7a697b6be7667cf9"
+      "guid" : "d0531b87895a86ffd99339e6516fcaef83164ff7a971937f324b943534d4e45e"
     }
   ],
   "containerPath" : "/Users/jason.sampy/Documents/UITesting/UITesting/UITesting.xcodeproj",
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "dependencyScope" : "workspace",
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
@@ -51,7 +51,7 @@
       }
     }
   },
-  "schemeCommand" : "test",
+  "schemeCommand" : "launch",
   "showNonLoggedProgress" : true,
   "useDryRun" : false,
   "useImplicitDependencies" : true,
