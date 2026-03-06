@@ -1,5 +1,6 @@
 Target dependency graph (3 targets)
-Target 'UITestingTests' in project 'UITesting' (no dependencies)
+Target 'UITestingTests' in project 'UITesting'
+➜ Explicit dependency on target 'UITestingApp' in project 'UITesting'
 Target 'UITestingAppTesting' in project 'UITesting'
 ➜ Explicit dependency on target 'UITestingApp' in project 'UITesting'
 Target 'UITestingApp' in project 'UITesting' (no dependencies)

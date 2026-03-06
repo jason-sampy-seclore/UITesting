@@ -14,6 +14,13 @@
 			remoteGlobalIDString = A106D5C72F5ADC38006B8F00;
 			remoteInfo = UITestingApp;
 		};
+		A169103D2F5AE83F00AC4B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A106D5712F5ADAA0006B8F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A106D5C72F5ADC38006B8F00;
+			remoteInfo = UITestingApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +106,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A169103E2F5AE83F00AC4B94 /* PBXTargetDependency */,
 			);
 			name = UITestingTests;
 			packageProductDependencies = (
@@ -163,7 +171,7 @@
 				TargetAttributes = {
 					A106D58C2F5ADAA1006B8F00 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = A106D5782F5ADAA0006B8F00;
+						TestTargetID = A106D5C72F5ADC38006B8F00;
 					};
 					A106D5B52F5ADB39006B8F00 = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -248,6 +256,11 @@
 			isa = PBXTargetDependency;
 			target = A106D5C72F5ADC38006B8F00 /* UITestingApp */;
 			targetProxy = A106D5F22F5ADCCA006B8F00 /* PBXContainerItemProxy */;
+		};
+		A169103E2F5AE83F00AC4B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A106D5C72F5ADC38006B8F00 /* UITestingApp */;
+			targetProxy = A169103D2F5AE83F00AC4B94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,7 +396,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITesting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITesting";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITestingApp";
 			};
 			name = Debug;
 		};
@@ -401,7 +414,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITesting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITesting";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITestingApp";
 			};
 			name = Release;
 		};
