@@ -6,6 +6,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         AppDelegate *delegate = [[AppDelegate alloc] init];
         NSApplication *app = [NSApplication sharedApplication];
+        NSLog(@"Hello");
         app.delegate = delegate;
         return NSApplicationMain(argc, argv);
     }
